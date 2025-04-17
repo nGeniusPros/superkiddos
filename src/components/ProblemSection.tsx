@@ -60,7 +60,7 @@ const ProblemSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-[#333333]">
           Is Your Child Struggling? Don't Ignore These Warning Signs.
         </h2>
-        <p className="text-lg text-center mb-12 max-w-3xl mx-auto text-gray-600">
+        <p className="text-lg text-center mb-12 max-w-3xl mx-auto text-[#333333]">
           Mouth breathing, behavioral issues, and sleep problems may indicate underlying oral myofunctional disorders.
         </p>
 
@@ -78,7 +78,7 @@ const ProblemSection = () => {
                   return (
                     <li key={pointIndex} className="flex items-start">
                       <span className="text-[#f58634] mr-2">•</span>
-                      <span>
+                      <span className="text-[#333333]">
                         <strong className="text-[#333333]">{boldPart}:</strong> {restOfPoint}
                       </span>
                     </li>
@@ -103,7 +103,7 @@ const ProblemSection = () => {
           </div>
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-[#24afe3] mb-4">Ready to Take the First Step?</h3>
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-lg text-[#333333] mb-6">
               Our friendly team is here to answer all your questions and help you determine if our therapy is right for your child.
             </p>
             <a href="https://www.patientviewer.com/WebSched/23_3_42/GWT/WebSched/WebSched.html?V=32335F335F3432&I=31302E31302E31312E3831&P=3530303032&R=3130303030&S=3130303030&T=3930303030&N=3834363036&K=3330323337&C=6402&UP=1&CID=30&RSC=406" target="_blank" rel="noopener noreferrer" className="bg-[#f58634] hover:bg-[#e47624] text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 inline-block">

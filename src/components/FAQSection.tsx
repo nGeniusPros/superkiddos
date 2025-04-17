@@ -11,9 +11,9 @@
 import React, { useState } from 'react';
 
 const FAQSection = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleQuestion = (index) => {
+  const toggleQuestion = (index: number) => {
     if (openIndex === index) {
       setOpenIndex(null);
     } else {

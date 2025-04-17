@@ -76,12 +76,12 @@ const SocialProofSection = () => {
                   <span className="text-3xl text-white font-serif">"</span>
                 </div>
               </div>
-              <p className="italic text-gray-700 mb-6 pt-6 leading-relaxed text-lg">"{testimonial.quote}"</p>
-              <div className="flex items-center border-t pt-4 mt-2 border-gray-100">
-                <div className="w-14 h-14 bg-gradient-to-r from-[#24afe3] to-[#1e9dcf] rounded-full mr-4 flex items-center justify-center text-white font-bold shadow-md">
+              <p className="italic text-gray-700 mb-6 pt-6 leading-relaxed text-lg text-center">"{testimonial.quote}"</p>
+              <div className="flex flex-col md:flex-row items-center justify-center border-t pt-4 mt-2 border-gray-100">
+                <div className="w-14 h-14 bg-gradient-to-r from-[#24afe3] to-[#1e9dcf] rounded-full mb-3 md:mb-0 md:mr-4 flex items-center justify-center text-white font-bold shadow-md">
                   {testimonial.parent.charAt(0)}
                 </div>
-                <div>
+                <div className="text-center md:text-left">
                   <p className="font-semibold text-[#24afe3] text-lg">{testimonial.parent.split(',')[0]}</p>
                   <p className="text-[#333333] text-sm">{testimonial.parent.split(',')[1]?.trim()}</p>
                 </div>

@@ -52,15 +52,15 @@ const SolutionSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-[#333333]">
           Unlock Your Child's Potential with Gentle Treatments at SuperKiddos
         </h2>
-        <p className="text-lg text-center mb-12 max-w-3xl mx-auto text-gray-600">
+        <p className="text-lg text-center mb-12 max-w-3xl mx-auto text-[#333333]">
           Our specialized therapy addresses the root causes of mouth breathing, thumb sucking, and related issues.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {benefits.map((benefit, index) => (
             <div key={index} className="p-6 bg-white rounded-lg shadow-md border-l-4 border-[#24afe3] hover:shadow-lg transition-shadow duration-300">
-              <div className="flex items-start">
-                <div className="flex-shrink-0 mr-4">
+              <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left">
+                <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-4">
                   <div className="w-16 h-16 bg-[#e6f7fd] rounded-full flex items-center justify-center text-[#24afe3]">
                     <span className="text-3xl">
                       {benefit.title === "Improved Sleep" && "💤"}
@@ -73,8 +73,8 @@ const SolutionSection = () => {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-2 text-[#24afe3]">{benefit.title}</h3>
-                  <p className="text-gray-700 leading-relaxed">{benefit.description}</p>
+                  <h3 className="text-xl font-bold mb-2 text-[#24afe3] text-center md:text-left">{benefit.title}</h3>
+                  <p className="text-[#333333] leading-relaxed text-center md:text-left">{benefit.description}</p>
                 </div>
               </div>
             </div>
@@ -88,21 +88,21 @@ const SolutionSection = () => {
               <span className="text-2xl">👤</span>
             </div>
             <h3 className="text-xl font-bold mb-2 text-[#24afe3] text-center">Personalized Care</h3>
-            <p className="text-gray-700 text-center">Tailored treatment plans designed specifically for your child's unique needs.</p>
+            <p className="text-[#333333] text-center">Tailored treatment plans designed specifically for your child's unique needs.</p>
           </div>
           <div className="bg-[#e6f7fd] rounded-lg shadow-md p-4 flex flex-col items-center">
             <div className="w-16 h-16 bg-[#24afe3] rounded-full flex items-center justify-center text-white mb-4">
               <span className="text-2xl">🗣️</span>
             </div>
             <h3 className="text-xl font-bold mb-2 text-[#24afe3] text-center">Clearer Speech</h3>
-            <p className="text-gray-700 text-center">Improved articulation and confidence in communication.</p>
+            <p className="text-[#333333] text-center">Improved articulation and confidence in communication.</p>
           </div>
           <div className="bg-[#e6f7fd] rounded-lg shadow-md p-4 flex flex-col items-center">
             <div className="w-16 h-16 bg-[#24afe3] rounded-full flex items-center justify-center text-white mb-4">
               <span className="text-2xl">🫁</span>
             </div>
             <h3 className="text-xl font-bold mb-2 text-[#24afe3] text-center">Better Breathing</h3>
-            <p className="text-gray-700 text-center">Improved nasal breathing for better health and sleep.</p>
+            <p className="text-[#333333] text-center">Improved nasal breathing for better health and sleep.</p>
           </div>
         </div>
 

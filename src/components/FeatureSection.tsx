@@ -101,16 +101,16 @@ const FeatureSection = () => {
         {/* Feature Cards for Mobile */}
         <div className="md:hidden space-y-6">
           {features.map((item, index) => (
-            <div key={index} className="bg-gray-50 rounded-lg shadow-sm p-4">
-              <h3 className="font-bold text-[#24afe3] mb-2">{item.feature}</h3>
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <p className="text-xs uppercase font-semibold text-[#24afe3] mb-1">For Your Child</p>
-                  <p className="text-sm text-[#333333]">{item.childBenefit}</p>
+            <div key={index} className="bg-gray-50 rounded-lg shadow-sm p-4 text-center">
+              <h3 className="font-bold text-[#24afe3] mb-3 text-center">{item.feature}</h3>
+              <div className="flex flex-col gap-4">
+                <div className="border-b pb-3">
+                  <p className="text-xs uppercase font-semibold text-[#24afe3] mb-2 text-center">For Your Child</p>
+                  <p className="text-sm text-[#333333] text-center">{item.childBenefit}</p>
                 </div>
                 <div>
-                  <p className="text-xs uppercase font-semibold text-[#24afe3] mb-1">For You</p>
-                  <p className="text-sm text-[#333333]">{item.parentBenefit}</p>
+                  <p className="text-xs uppercase font-semibold text-[#24afe3] mb-2 text-center">For You</p>
+                  <p className="text-sm text-[#333333] text-center">{item.parentBenefit}</p>
                 </div>
               </div>
             </div>

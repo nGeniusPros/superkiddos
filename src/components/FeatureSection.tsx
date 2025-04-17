@@ -105,12 +105,12 @@ const FeatureSection = () => {
               <h3 className="font-bold text-[#24afe3] mb-2">{item.feature}</h3>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <p className="text-xs uppercase font-semibold text-gray-500 mb-1">For Your Child</p>
-                  <p className="text-sm">{item.childBenefit}</p>
+                  <p className="text-xs uppercase font-semibold text-[#24afe3] mb-1">For Your Child</p>
+                  <p className="text-sm text-[#333333]">{item.childBenefit}</p>
                 </div>
                 <div>
-                  <p className="text-xs uppercase font-semibold text-gray-500 mb-1">For You</p>
-                  <p className="text-sm">{item.parentBenefit}</p>
+                  <p className="text-xs uppercase font-semibold text-[#24afe3] mb-1">For You</p>
+                  <p className="text-sm text-[#333333]">{item.parentBenefit}</p>
                 </div>
               </div>
             </div>

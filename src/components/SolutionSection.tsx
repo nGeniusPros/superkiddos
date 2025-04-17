@@ -114,28 +114,28 @@ const SolutionSection = () => {
                 <span className="text-sm font-bold">1</span>
               </div>
               <p className="text-sm text-center">Certified Therapist</p>
-              <p className="text-xs text-gray-500 text-center">Benefit text here</p>
+              <p className="text-xs text-[#333333] text-center">Benefit text here</p>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-12 h-12 bg-[#24afe3] rounded-full flex items-center justify-center text-white mb-2">
                 <span className="text-sm font-bold">2</span>
               </div>
               <p className="text-sm text-center">Personalized Plans</p>
-              <p className="text-xs text-gray-500 text-center">Benefit text here</p>
+              <p className="text-xs text-[#333333] text-center">Benefit text here</p>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-12 h-12 bg-[#24afe3] rounded-full flex items-center justify-center text-white mb-2">
                 <span className="text-sm font-bold">3</span>
               </div>
               <p className="text-sm text-center">Non-Invasive Care</p>
-              <p className="text-xs text-gray-500 text-center">Benefit text here</p>
+              <p className="text-xs text-[#333333] text-center">Benefit text here</p>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-12 h-12 bg-[#24afe3] rounded-full flex items-center justify-center text-white mb-2">
                 <span className="text-sm font-bold">4</span>
               </div>
               <p className="text-sm text-center">Proven Therapy</p>
-              <p className="text-xs text-gray-500 text-center">Benefit text here</p>
+              <p className="text-xs text-[#333333] text-center">Benefit text here</p>
             </div>
           </div>
         </div>

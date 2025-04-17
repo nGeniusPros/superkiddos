@@ -83,7 +83,7 @@ const SocialProofSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-[#24afe3] text-lg">{testimonial.parent.split(',')[0]}</p>
-                  <p className="text-gray-500 text-sm">{testimonial.parent.split(',')[1]?.trim()}</p>
+                  <p className="text-[#333333] text-sm">{testimonial.parent.split(',')[1]?.trim()}</p>
                 </div>
               </div>
             </div>
@@ -102,11 +102,11 @@ const SocialProofSection = () => {
                   <span className="text-4xl">{index === 0 ? '🏅' : index === 1 ? '🎓' : '⭐'}</span>
                 </div>
                 <p className="font-semibold text-center text-[#24afe3]">{cert.name}</p>
-                <p className="text-xs text-gray-500 text-center mt-2">Recognized Excellence</p>
+                <p className="text-xs text-[#333333] text-center mt-2">Recognized Excellence</p>
               </div>
             ))}
           </div>
-          <p className="text-center text-gray-600 text-sm">Our therapists maintain the highest standards of professional certification and ongoing education</p>
+          <p className="text-center text-[#333333] text-sm">Our therapists maintain the highest standards of professional certification and ongoing education</p>
         </div>
 
         {/* Trust badge */}
@@ -119,7 +119,7 @@ const SocialProofSection = () => {
             <div className="flex justify-center items-center gap-4">
               <div className="text-center px-4 py-2 bg-white rounded-lg shadow-sm">
                 <p className="text-3xl font-bold text-[#f58634]">500+</p>
-                <p className="text-xs text-gray-600">Children Helped</p>
+                <p className="text-xs text-[#333333]">Children Helped</p>
               </div>
               <div className="text-center px-4 py-2 bg-white rounded-lg shadow-sm">
                 <div className="flex justify-center space-x-1">
@@ -129,11 +129,11 @@ const SocialProofSection = () => {
                   <span className="text-[#f58634] text-xl">★</span>
                   <span className="text-[#f58634] text-xl">★</span>
                 </div>
-                <p className="text-xs text-gray-600">Average Rating</p>
+                <p className="text-xs text-[#333333]">Average Rating</p>
               </div>
               <div className="text-center px-4 py-2 bg-white rounded-lg shadow-sm">
                 <p className="text-3xl font-bold text-[#f58634]">2018</p>
-                <p className="text-xs text-gray-600">Established</p>
+                <p className="text-xs text-[#333333]">Established</p>
               </div>
             </div>
           </div>
